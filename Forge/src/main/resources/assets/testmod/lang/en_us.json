@@ -1,5 +1,6 @@
 {
   "item.testmod.bombomb": "Bomb-omb",
   "item.testmod.bowser": "Bowser",
-  "item.testmod.mushroom": "Mushroom"
+  "item.testmod.mushroom": "Mushroom",
+  "itemGroup.jackanddan": "TESTMOD"
 }

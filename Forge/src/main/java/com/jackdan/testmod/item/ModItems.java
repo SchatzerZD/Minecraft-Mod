@@ -9,19 +9,18 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.lwjgl.system.CallbackI;
+
+import java.util.Locale;
 
 
 public class ModItems {
 
-    private static final CreativeModeTab creativeModeTab = new CreativeModeTab(12,"Jack and Dan") {
+    private static final CreativeModeTab creativeModeTab = new CreativeModeTab(12,"jackanddan") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.BOMBOMB.get());
         }
     };
-
-
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TestMod.MOD_ID);
 

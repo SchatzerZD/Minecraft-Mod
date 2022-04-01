@@ -34,7 +34,6 @@ public class TestMod
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-
         ModItems.register(eventBus);
         eventBus.addListener(this::setup);
 
